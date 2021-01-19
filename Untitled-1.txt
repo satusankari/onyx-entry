@@ -1,0 +1,9 @@
+echo "# onyx-entry" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/satusankari/onyx-entry.git
+git push -u origin main
+
+/делаем изменения в пректе, коммит и пушим
